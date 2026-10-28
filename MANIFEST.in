@@ -1,0 +1,14 @@
+include LICENSE *.md .env.example .gitignore uv.lock .python-version
+recursive-include .github *.yml
+recursive-include configs *.json
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include docs *.md *.gif *.mp4
+prune logs
+prune runs
+prune videos
+prune data
+prune datasets
+prune checkpoints
+prune assets
+global-exclude __pycache__ *.py[cod]

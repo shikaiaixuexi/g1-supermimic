@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+._*
+.DS_Store
+
+# Run outputs
+logs/
+videos/
+checkpoints/
+*.pt
+*.mp4
+!docs/media/g1-mimic.mp4
+assets/isaac_g1/
+.ruff_cache/
+data/
+datasets/
+runs/
+dist/
+build/
+.env
+*.npz
+*.csv
+*.parquet
+*.tar.gz

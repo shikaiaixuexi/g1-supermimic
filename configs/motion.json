@@ -1,0 +1,11 @@
+{
+  "task": "motion",
+  "device": "cuda:0",
+  "motion_file": "../data/bones-seed/converted/manifest.json",
+  "run_dir": "../runs/motion",
+  "num_envs": 64,
+  "iterations": 10000,
+  "warmup_iterations": 300,
+  "save_interval": 500,
+  "log_interval": 20
+}
